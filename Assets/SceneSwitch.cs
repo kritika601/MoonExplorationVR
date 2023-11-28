@@ -1,12 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour
+public class SceneSwitch : MonoBehaviour
 {
     // Start is called before the first frame update
-    // public string scenename;
     void Start()
     {
         
@@ -16,10 +14,5 @@ public class ChangeScene : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void Change(){
-        
-        SceneManager.LoadScene("MoonScene");
     }
 }

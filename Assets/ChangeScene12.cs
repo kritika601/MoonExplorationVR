@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour
+public class ChangeScene12 : MonoBehaviour
 {
     // Start is called before the first frame update
     // public string scenename;
@@ -20,6 +20,6 @@ public class ChangeScene : MonoBehaviour
 
     public void Change(){
         
-        SceneManager.LoadScene("MoonScene");
+        SceneManager.LoadScene("earthScene");
     }
 }
