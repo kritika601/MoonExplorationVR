@@ -8,9 +8,7 @@ public class ChangeScene : MonoBehaviour
     // Start is called before the first frame update
     // public string scenename;
     void OnTriggerEnter(Collider other){
-        // if(other.CompareTag("Player")){
-        //     SceneManager.LoadScene(scenename);
-        // }
-        SceneManager.LoadScene("MoonScene");
+        
+        SceneManager.LoadScene(1);
     }
 }
